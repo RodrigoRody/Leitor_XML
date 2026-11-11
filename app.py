@@ -21,6 +21,7 @@ import os
 import re
 import sqlite3
 import zipfile
+import reportlab
 import xml.etree.ElementTree as ET
 from contextlib import contextmanager
 from datetime import datetime
@@ -29,7 +30,7 @@ from decimal import Decimal, InvalidOperation
 
 import pandas as pd
 import streamlit as st
-#from reportlab.lib import colors
+from reportlab.lib import colors
 from reportlab.lib.pagesizes import landscape, A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from xml.sax.saxutils import escape
