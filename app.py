@@ -29,7 +29,7 @@ from decimal import Decimal, InvalidOperation
 
 import pandas as pd
 import streamlit as st
-from reportlab.lib import colors
+#from reportlab.lib import colors
 from reportlab.lib.pagesizes import landscape, A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from xml.sax.saxutils import escape
